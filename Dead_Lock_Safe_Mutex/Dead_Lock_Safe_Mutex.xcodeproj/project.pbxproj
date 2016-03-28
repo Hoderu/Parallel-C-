@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F169E6131B1C77560016D801 /* Checker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F169E6051B1C77560016D801 /* Checker.cpp */; };
+		F169E6151B1C77560016D801 /* My_Vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F169E6091B1C77560016D801 /* My_Vertex.cpp */; };
+		F169E6161B1C77560016D801 /* Resourse_Allocation_Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F169E60B1B1C77560016D801 /* Resourse_Allocation_Graph.cpp */; };
+		F169E6171B1C77560016D801 /* DeadLockSafeMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F169E60D1B1C77560016D801 /* DeadLockSafeMutex.cpp */; };
+		F169E6181B1C77560016D801 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F169E60F1B1C77560016D801 /* libboost_system.dylib */; };
+		F169E61B1B1C77560016D801 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F169E6121B1C77560016D801 /* main.cpp */; };
+		F1FF080F1B1D248E00F816DC /* Thread_Id.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FF080E1B1D248E00F816DC /* Thread_Id.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1CCB6261B1C579100E6FDC6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F169E6051B1C77560016D801 /* Checker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Checker.cpp; sourceTree = "<group>"; };
+		F169E6061B1C77560016D801 /* Checker.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Checker.hpp; sourceTree = "<group>"; };
+		F169E6081B1C77560016D801 /* Thread_Id.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Thread_Id.hpp; sourceTree = "<group>"; };
+		F169E6091B1C77560016D801 /* My_Vertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = My_Vertex.cpp; sourceTree = "<group>"; };
+		F169E60A1B1C77560016D801 /* My_Vertex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = My_Vertex.hpp; sourceTree = "<group>"; };
+		F169E60B1B1C77560016D801 /* Resourse_Allocation_Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Resourse_Allocation_Graph.cpp; sourceTree = "<group>"; };
+		F169E60C1B1C77560016D801 /* Resourse_Allocation_Graph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Resourse_Allocation_Graph.hpp; sourceTree = "<group>"; };
+		F169E60D1B1C77560016D801 /* DeadLockSafeMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeadLockSafeMutex.cpp; sourceTree = "<group>"; };
+		F169E60E1B1C77560016D801 /* DeadLockSafeMutex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DeadLockSafeMutex.hpp; sourceTree = "<group>"; };
+		F169E60F1B1C77560016D801 /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libboost_system.dylib; sourceTree = "<group>"; };
+		F169E6121B1C77560016D801 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F1CCB6281B1C579100E6FDC6 /* Dead_Lock_Safe_Mutex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dead_Lock_Safe_Mutex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FF080E1B1D248E00F816DC /* Thread_Id.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Thread_Id.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1CCB6251B1C579100E6FDC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F169E6181B1C77560016D801 /* libboost_system.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1CCB61F1B1C579100E6FDC6 = {
+			isa = PBXGroup;
+			children = (
+				F1CCB62A1B1C579100E6FDC6 /* Dead_Lock_Safe_Mutex */,
+				F1CCB6291B1C579100E6FDC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1CCB6291B1C579100E6FDC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1CCB6281B1C579100E6FDC6 /* Dead_Lock_Safe_Mutex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1CCB62A1B1C579100E6FDC6 /* Dead_Lock_Safe_Mutex */ = {
+			isa = PBXGroup;
+			children = (
+				F169E6051B1C77560016D801 /* Checker.cpp */,
+				F169E6061B1C77560016D801 /* Checker.hpp */,
+				F169E6081B1C77560016D801 /* Thread_Id.hpp */,
+				F1FF080E1B1D248E00F816DC /* Thread_Id.cpp */,
+				F169E6091B1C77560016D801 /* My_Vertex.cpp */,
+				F169E60A1B1C77560016D801 /* My_Vertex.hpp */,
+				F169E60B1B1C77560016D801 /* Resourse_Allocation_Graph.cpp */,
+				F169E60C1B1C77560016D801 /* Resourse_Allocation_Graph.hpp */,
+				F169E60D1B1C77560016D801 /* DeadLockSafeMutex.cpp */,
+				F169E60E1B1C77560016D801 /* DeadLockSafeMutex.hpp */,
+				F169E60F1B1C77560016D801 /* libboost_system.dylib */,
+				F169E6121B1C77560016D801 /* main.cpp */,
+			);
+			path = Dead_Lock_Safe_Mutex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1CCB6271B1C579100E6FDC6 /* Dead_Lock_Safe_Mutex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CCB62F1B1C579100E6FDC6 /* Build configuration list for PBXNativeTarget "Dead_Lock_Safe_Mutex" */;
+			buildPhases = (
+				F1CCB6241B1C579100E6FDC6 /* Sources */,
+				F1CCB6251B1C579100E6FDC6 /* Frameworks */,
+				F1CCB6261B1C579100E6FDC6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dead_Lock_Safe_Mutex;
+			productName = Dead_Lock_Safe_Mutex;
+			productReference = F1CCB6281B1C579100E6FDC6 /* Dead_Lock_Safe_Mutex */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1CCB6201B1C579100E6FDC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = mipt;
+				TargetAttributes = {
+					F1CCB6271B1C579100E6FDC6 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F1CCB6231B1C579100E6FDC6 /* Build configuration list for PBXProject "Dead_Lock_Safe_Mutex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1CCB61F1B1C579100E6FDC6;
+			productRefGroup = F1CCB6291B1C579100E6FDC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1CCB6271B1C579100E6FDC6 /* Dead_Lock_Safe_Mutex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1CCB6241B1C579100E6FDC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F169E6131B1C77560016D801 /* Checker.cpp in Sources */,
+				F169E6161B1C77560016D801 /* Resourse_Allocation_Graph.cpp in Sources */,
+				F169E6151B1C77560016D801 /* My_Vertex.cpp in Sources */,
+				F1FF080F1B1D248E00F816DC /* Thread_Id.cpp in Sources */,
+				F169E6171B1C77560016D801 /* DeadLockSafeMutex.cpp in Sources */,
+				F169E61B1B1C77560016D801 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1CCB62D1B1C579100E6FDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F1CCB62E1B1C579100E6FDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F1CCB6301B1C579100E6FDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+					/Users/Hoderu/Desktop/Projects/concurrent_heap/concurrent_heap,
+					"$(PROJECT_DIR)/Dead_Lock_Safe_Mutex",
+				);
+				OTHER_LDFLAGS = "/usr/local/lib/libboost_thread-mt.a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Debug;
+		};
+		F1CCB6311B1C579100E6FDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+					/Users/Hoderu/Desktop/Projects/concurrent_heap/concurrent_heap,
+					"$(PROJECT_DIR)/Dead_Lock_Safe_Mutex",
+				);
+				OTHER_LDFLAGS = "/usr/local/lib/libboost_thread-mt.a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1CCB6231B1C579100E6FDC6 /* Build configuration list for PBXProject "Dead_Lock_Safe_Mutex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CCB62D1B1C579100E6FDC6 /* Debug */,
+				F1CCB62E1B1C579100E6FDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CCB62F1B1C579100E6FDC6 /* Build configuration list for PBXNativeTarget "Dead_Lock_Safe_Mutex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CCB6301B1C579100E6FDC6 /* Debug */,
+				F1CCB6311B1C579100E6FDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1CCB6201B1C579100E6FDC6 /* Project object */;
+}

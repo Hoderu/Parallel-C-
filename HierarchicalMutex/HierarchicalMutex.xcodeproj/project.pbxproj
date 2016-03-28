@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10F49A41AB5AA27007F6E7A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F10F49A31AB5AA27007F6E7A /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F10F499E1AB5AA27007F6E7A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F10F49A01AB5AA27007F6E7A /* HierarchicalMutex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HierarchicalMutex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10F49A31AB5AA27007F6E7A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F10F49AA1AB5AA3A007F6E7A /* HierarchicalMutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HierarchicalMutex.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10F499D1AB5AA27007F6E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10F49971AB5AA27007F6E7A = {
+			isa = PBXGroup;
+			children = (
+				F10F49A21AB5AA27007F6E7A /* HierarchicalMutex */,
+				F10F49A11AB5AA27007F6E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F10F49A11AB5AA27007F6E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10F49A01AB5AA27007F6E7A /* HierarchicalMutex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F10F49A21AB5AA27007F6E7A /* HierarchicalMutex */ = {
+			isa = PBXGroup;
+			children = (
+				F10F49A31AB5AA27007F6E7A /* main.cpp */,
+				F10F49AA1AB5AA3A007F6E7A /* HierarchicalMutex.h */,
+			);
+			path = HierarchicalMutex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10F499F1AB5AA27007F6E7A /* HierarchicalMutex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10F49A71AB5AA27007F6E7A /* Build configuration list for PBXNativeTarget "HierarchicalMutex" */;
+			buildPhases = (
+				F10F499C1AB5AA27007F6E7A /* Sources */,
+				F10F499D1AB5AA27007F6E7A /* Frameworks */,
+				F10F499E1AB5AA27007F6E7A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HierarchicalMutex;
+			productName = HierarchicalMutex;
+			productReference = F10F49A01AB5AA27007F6E7A /* HierarchicalMutex */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10F49981AB5AA27007F6E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = mipt;
+				TargetAttributes = {
+					F10F499F1AB5AA27007F6E7A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = F10F499B1AB5AA27007F6E7A /* Build configuration list for PBXProject "HierarchicalMutex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F10F49971AB5AA27007F6E7A;
+			productRefGroup = F10F49A11AB5AA27007F6E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10F499F1AB5AA27007F6E7A /* HierarchicalMutex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10F499C1AB5AA27007F6E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10F49A41AB5AA27007F6E7A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10F49A51AB5AA27007F6E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F10F49A61AB5AA27007F6E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F10F49A81AB5AA27007F6E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F10F49A91AB5AA27007F6E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10F499B1AB5AA27007F6E7A /* Build configuration list for PBXProject "HierarchicalMutex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10F49A51AB5AA27007F6E7A /* Debug */,
+				F10F49A61AB5AA27007F6E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10F49A71AB5AA27007F6E7A /* Build configuration list for PBXNativeTarget "HierarchicalMutex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10F49A81AB5AA27007F6E7A /* Debug */,
+				F10F49A91AB5AA27007F6E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10F49981AB5AA27007F6E7A /* Project object */;
+}
